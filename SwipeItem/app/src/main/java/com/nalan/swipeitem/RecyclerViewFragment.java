@@ -501,11 +501,6 @@ public class RecyclerViewFragment extends Fragment{
             }
             int tempX= x;
             long result = 0;
-//            if (tempX>0){
-//                result*=10;
-//                result+= tempX%10;
-//                tempX/=10;
-//            }
             int num;
             while (tempX>0){
                 num = tempX%10;
@@ -594,7 +589,6 @@ public class RecyclerViewFragment extends Fragment{
         }
     }
     public static void main(String[] args) {
-        //romanToInt("IMHIHASODHFOISHAIODFOISAHIODFOSIF");
         int[] temps = new int[100];
         for(int i =0 ; i<100;i++){
             temps[i]=i;
